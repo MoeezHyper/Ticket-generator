@@ -97,7 +97,7 @@ const Ticket = () => {
             className="backdrop-blur-[8px] px-3"
           />
 
-          <div className="absolute top-0 max-md:-top-2 max-md:left-7 left-6 text-white flex font-inconsolata items-center">
+          <div className="absolute top-0 max-md:-top-2 max-md:left-7 left-6 text-white flex font-inconsolata items-center md:ml-2">
             <img src="logo-mark.svg" alt="logo" className="max-md:size-7" />
             <div className="ml-5 max-md:ml-3 mt-4 flex flex-col">
               <p className="font-bold text-[38px] max-md:text-[24px]">
@@ -110,7 +110,7 @@ const Ticket = () => {
             </div>
           </div>
 
-          <div className="absolute bottom-5 max-md:bottom-1 left-6 text-white flex font-inconsolata items-center mb-3">
+          <div className="absolute bottom-5 max-md:bottom-1 left-6 text-white flex font-inconsolata items-center mb-3 md:ml-2">
             <img
               src={avatarPreview}
               alt="avtar"
